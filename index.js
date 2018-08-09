@@ -33,10 +33,11 @@ exports.handler = (event, context, callback) => {
 }
 
 function emitLambdaAge() {
-    var now = moment();
-    var lambdaAnnouncement = moment('2014-11-04');
+   // var now = moment();
+   // var lambdaAnnouncement = moment('2014-11-04');
 
-    var daysOld = now.diff(lambdaAnnouncement, 'days');
+    //var daysOld = now.diff(lambdaAnnouncement, 'days');
 
-    console.log('Lambda is ' + daysOld + ' days old!');
+    //console.log('Lambda is ' + daysOld + ' days old!');
+    document.write("<h1 style='text-align:center'>Serverless App Demo</h1>");
 }
